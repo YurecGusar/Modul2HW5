@@ -6,13 +6,11 @@ namespace Modul2HW5
     public class Starter
     {
         private readonly IActions _actions;
-        private readonly IFileService _fileService;
         public Starter(
             IActions actions,
             IFileService fileService)
         {
             _actions = actions;
-            _fileService = fileService;
         }
 
         public void Run()
