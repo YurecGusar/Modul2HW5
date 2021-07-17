@@ -6,10 +6,18 @@ namespace Modul2HW5.Services
 {
     public class LoggerService : ILoggerService
     {
+        private readonly IFileService _fileService;
+        private string _log;
+        public LoggerService(IFileService fileService)
+        {
+            _fileService = fileService;
+        }
+
         public void CreateLog(LogTypes logType, string message)
         {
-            var log = $"{DateTime.UtcNow}: {logType}: {message}";
-            Console.WriteLine(log);
+            _log = $"{DateTime.UtcNow}: {logType}: {message}";
+            Console.WriteLine(_log);
+            _fileService.WriteToFile(_log);
         }
     }
 }

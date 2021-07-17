@@ -6,13 +6,18 @@ namespace Modul2HW5
     public class Starter
     {
         private readonly IActions _actions;
-        public Starter(IActions actions)
+        private readonly IFileService _fileService;
+        public Starter(
+            IActions actions,
+            IFileService fileService)
         {
             _actions = actions;
+            _fileService = fileService;
         }
 
         public void Run()
         {
+            /*_fileService.OpenFileStream();*/
             _actions.InfoAction();
             try
             {
@@ -29,6 +34,8 @@ namespace Modul2HW5
             catch (Exception)
             {
             }
+
+            /*_fileService.CloseFileStream();*/
         }
     }
 }

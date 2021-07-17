@@ -8,7 +8,6 @@ namespace Modul2HW5.Services
     public class Actions : IActions
     {
         private readonly ILoggerService _logger;
-        private BusinessException _businessException;
         public Actions(ILoggerService logger)
         {
             _logger = logger;
@@ -24,9 +23,8 @@ namespace Modul2HW5.Services
         public void BusinesExceptionAction()
         {
             var message = "Skipped logic in method";
-            _businessException = new BusinessException(message);
             _logger.CreateLog(LogTypes.WARNING, message);
-            throw _businessException;
+            throw new BusinessException(message);
         }
 
         public void ExceptionAction()
