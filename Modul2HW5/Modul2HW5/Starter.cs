@@ -15,7 +15,6 @@ namespace Modul2HW5
 
         public void Run()
         {
-            /*_fileService.OpenFileStream();*/
             _actions.InfoAction();
             try
             {
@@ -32,8 +31,6 @@ namespace Modul2HW5
             catch (Exception)
             {
             }
-
-            /*_fileService.CloseFileStream();*/
         }
     }
 }

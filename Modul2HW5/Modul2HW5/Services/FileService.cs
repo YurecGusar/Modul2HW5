@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.IO;
 using Modul2HW5.Services.Abstractions;
 
@@ -8,11 +9,14 @@ namespace Modul2HW5.Services
     {
         private const int _directorySize = 3;
         private const string _directoryName = "Loggers";
+        private readonly IComparer _comparer;
         private DirectoryInfo _dirInfo;
         private StreamWriter _streamWriter;
 
-        public FileService()
+        public FileService(IComparer comparer)
         {
+            _comparer = comparer;
+
             _dirInfo = new DirectoryInfo(_directoryName);
             DirectorySizeControl();
         }
@@ -36,6 +40,7 @@ namespace Modul2HW5.Services
         private void DirectorySizeControl()
         {
             var files = _dirInfo.GetFiles();
+            Array.Sort(files, _comparer);
             if (files.Length >= _directorySize)
             {
                 for (var i = 0; i <= files.Length - _directorySize; i++)
