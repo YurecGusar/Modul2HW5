@@ -10,6 +10,7 @@ namespace Modul2HW5
     {
         public void Run()
         {
+            Console.WriteLine("develop");
         }
     }
 }
