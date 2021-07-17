@@ -1,16 +1,34 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Modul2HW5.Services.Abstractions;
 
 namespace Modul2HW5
 {
     public class Starter
     {
+        private readonly IActions _actions;
+        public Starter(IActions actions)
+        {
+            _actions = actions;
+        }
+
         public void Run()
         {
-            Console.WriteLine("develop");
+            _actions.InfoAction();
+            try
+            {
+                _actions.BusinesExceptionAction();
+            }
+            catch (BusinessExceptions.BusinessException)
+            {
+            }
+
+            try
+            {
+                _actions.ExceptionAction();
+            }
+            catch (Exception)
+            {
+            }
         }
     }
 }

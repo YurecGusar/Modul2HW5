@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "cAwaJfRbgQumIUM38f4uB7OUyomky7SEWvt3m95Hi/j1cKhrafh3sBaagtpgCfNJbIULGPThcCISHI3BtCyftQ==",
+  "dgSpecHash": "APfDQYTYyNYDy8CY3ISlMR/SPA2ESbaCI7Rxu/10YVLWh/HWQXFY6B1uacfsYyv3tRe61xsBZXUExzzyIJHduA==",
   "success": true,
   "projectFilePath": "E:\\A-Level\\YurecGusar\\Modul2HW5\\Modul2HW5\\Modul2HW5\\Modul2HW5.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
   ],
   "logs": []
