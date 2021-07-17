@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cAwaJfRbgQumIUM38f4uB7OUyomky7SEWvt3m95Hi/j1cKhrafh3sBaagtpgCfNJbIULGPThcCISHI3BtCyftQ==",
+  "success": true,
+  "projectFilePath": "E:\\A-Level\\YurecGusar\\Modul2HW5\\Modul2HW5\\Modul2HW5\\Modul2HW5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

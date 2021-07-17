@@ -1,0 +1,16 @@
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.csproj.AssemblyReference.cache
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.GeneratedMSBuildEditorConfig.editorconfig
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.AssemblyInfoInputs.cache
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.AssemblyInfo.cs
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.csproj.CoreCompileInputs.cache
+E:\A-Level\ZeroPrj\ZeroPrj\bin\Debug\net5.0\ZeroPrj.exe
+E:\A-Level\ZeroPrj\ZeroPrj\bin\Debug\net5.0\ZeroPrj.deps.json
+E:\A-Level\ZeroPrj\ZeroPrj\bin\Debug\net5.0\ZeroPrj.runtimeconfig.json
+E:\A-Level\ZeroPrj\ZeroPrj\bin\Debug\net5.0\ZeroPrj.runtimeconfig.dev.json
+E:\A-Level\ZeroPrj\ZeroPrj\bin\Debug\net5.0\ZeroPrj.dll
+E:\A-Level\ZeroPrj\ZeroPrj\bin\Debug\net5.0\ref\ZeroPrj.dll
+E:\A-Level\ZeroPrj\ZeroPrj\bin\Debug\net5.0\ZeroPrj.pdb
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.dll
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ref\ZeroPrj.dll
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.pdb
+E:\A-Level\ZeroPrj\ZeroPrj\obj\Debug\net5.0\ZeroPrj.genruntimeconfig.cache
