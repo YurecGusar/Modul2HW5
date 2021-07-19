@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.IO;
-using Modul2HW5.Atributes;
 using Modul2HW5.Services.Abstractions;
 
 namespace Modul2HW5.Services
@@ -20,10 +19,16 @@ namespace Modul2HW5.Services
         {
             _comparer = comparer;
             _config = config;
+
             _dirInfo = new DirectoryInfo(_config.LoggerConfig.DirectoryName);
             CreateDirectory();
             DirectorySizeControl();
             _filePath = GetFilePath();
+        }
+
+        public void StartFileStream()
+        {
+            _streamWriter = new StreamWriter(_filePath, true);
         }
 
         public void WriteToFile(string value)
@@ -56,7 +61,11 @@ namespace Modul2HW5.Services
 
         private string GetFilePath()
         {
-            return @$"{_config.LoggerConfig.DirectoryName}{DateTime.UtcNow.ToString().Replace(':', '.')}{_config.LoggerConfig.FileExtension}";
+            var dirName = _config.LoggerConfig.DirectoryName;
+            var fileName = DateTime.UtcNow.ToString(_config.LoggerConfig.FileNameFormat);
+            var fileExtension = _config.LoggerConfig.FileExtension;
+
+            return @$"{dirName}{fileName}{fileExtension}";
         }
     }
 }

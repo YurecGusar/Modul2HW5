@@ -1,1 +1,1 @@
-{"LoggerConfig":{"DirectorySize":3,"DirectoryName":"Logs\\","FileExtension":".txt"}}
+{"LoggerConfig":{"DirectorySize":3,"DirectoryName":"Logs\\","FileExtension":".txt","FileNameFormat":"hh.mm.ss dd.MM.yyyy","TimeFormat":"hh:mm:ss"}}

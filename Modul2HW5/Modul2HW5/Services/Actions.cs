@@ -22,15 +22,13 @@ namespace Modul2HW5.Services
 
         public void BusinesExceptionAction()
         {
-            var message = "Skipped logic in method";
-            _logger.CreateLog(LogTypes.WARNING, message);
+            var message = $"Skipped logic in method: {nameof(BusinesExceptionAction)}";
             throw new BusinessException(message);
         }
 
         public void ExceptionAction()
         {
-            var message = "I broke a logic";
-            _logger.CreateLog(LogTypes.ERROR, message);
+            var message = $"I broke a logic: {nameof(ExceptionAction)}";
             throw new Exception(message);
         }
     }

@@ -12,8 +12,8 @@ namespace Modul2HW5.Extensions
     {
         public int Compare(object file1, object file2)
         {
-            var creationTime1 = (file1 as FileInfo).CreationTime;
-            var creationTime2 = (file2 as FileInfo).CreationTime;
+            var creationTime1 = (file1 as FileInfo).CreationTimeUtc;
+            var creationTime2 = (file2 as FileInfo).CreationTimeUtc;
 
             if (creationTime1 > creationTime2)
             {

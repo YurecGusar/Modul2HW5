@@ -8,6 +8,7 @@ namespace Modul2HW5.Services.Abstractions
 {
     public interface IFileService
     {
+        public void StartFileStream();
         public void WriteToFile(string value);
     }
 }

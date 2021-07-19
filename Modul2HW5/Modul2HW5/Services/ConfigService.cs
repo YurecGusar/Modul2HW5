@@ -23,7 +23,9 @@ namespace Modul2HW5.Services
                 {
                     DirectoryName = @"Logs\",
                     DirectorySize = 3,
-                    FileExtension = ".txt"
+                    FileExtension = ".txt",
+                    FileNameFormat = "hh.mm.ss dd.MM.yyyy",
+                    TimeFormat = "hh:mm:ss"
                 }
             };
         }
