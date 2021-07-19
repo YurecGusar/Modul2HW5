@@ -1,0 +1,72 @@
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: INFO: Start method: InfoAction
+19.07.2021 11:02:45: INFO: Start method: InfoAction
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: INFO: Start method: InfoAction
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: WARNING: Skipped logic in method
+19.07.2021 11:02:45: ERROR: I broke a logic
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: INFO: Start method: InfoAction
+19.07.2021 11:02:46: ERROR: I broke a logic
+19.07.2021 11:02:46: WARNING: Skipped logic in method
+19.07.2021 11:02:46: INFO: Start method: InfoAction

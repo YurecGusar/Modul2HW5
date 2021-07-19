@@ -17,6 +17,7 @@ namespace Modul2HW5
                 .AddTransient<IActions, Actions>()
                 .AddTransient<IFileService, FileService>()
                 .AddTransient<IComparer, DateTimeComparer>()
+                .AddTransient<IConfigService, ConfigService>()
                 .BuildServiceProvider();
             var start = serviceProvider.GetService<Starter>();
             start.Run();

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.IO;
 using Modul2HW5.Services.Abstractions;
+using Newtonsoft.Json;
 
 namespace Modul2HW5
 {
@@ -7,31 +9,47 @@ namespace Modul2HW5
     {
         private readonly IActions _actions;
         private readonly IFileService _fileService;
+        private readonly IConfigService _configService;
         public Starter(
             IActions actions,
-            IFileService fileService)
+            IFileService fileService,
+            IConfigService configService)
         {
             _actions = actions;
             _fileService = fileService;
+            _configService = configService;
         }
 
         public void Run()
         {
-            _actions.InfoAction();
-            try
+            for (var i = 0; i < 100; i++)
             {
-                _actions.BusinesExceptionAction();
-            }
-            catch (BusinessExceptions.BusinessException)
-            {
-            }
+                switch (new Random().Next(_configService.LoggerConfig.DirectorySize + 1))
+                {
+                    case 1:
+                        _actions.InfoAction();
+                        break;
+                    case 2:
+                        try
+                        {
+                            _actions.BusinesExceptionAction();
+                        }
+                        catch (BusinessExceptions.BusinessException)
+                        {
+                        }
 
-            try
-            {
-                _actions.ExceptionAction();
-            }
-            catch (Exception)
-            {
+                        break;
+                    case 3:
+                        try
+                        {
+                            _actions.ExceptionAction();
+                        }
+                        catch (Exception)
+                        {
+                        }
+
+                        break;
+                }
             }
         }
     }

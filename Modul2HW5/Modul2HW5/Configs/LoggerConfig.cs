@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modul2HW5.Atributes
+namespace Modul2HW5.Configs
 {
-    public class FileServiceAtribute : Attribute
+    public class LoggerConfig
     {
         public int DirectorySize { get; set; }
         public string DirectoryName { get; set; }

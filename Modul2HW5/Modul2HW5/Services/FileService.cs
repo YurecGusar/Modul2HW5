@@ -6,28 +6,29 @@ using Modul2HW5.Services.Abstractions;
 
 namespace Modul2HW5.Services
 {
-    [FileServiceAtribute(DirectorySize = 3, DirectoryName = "Loggers")]
     public class FileService : IFileService
     {
+        private readonly IConfigService _config;
         private readonly IComparer _comparer;
         private DirectoryInfo _dirInfo;
         private StreamWriter _streamWriter;
-        private FileServiceAtribute _attributeValue;
+        private string _filePath;
 
         public FileService(
-            IComparer comparer)
+            IComparer comparer,
+            IConfigService config)
         {
             _comparer = comparer;
-
-            GetAttributes();
-            _dirInfo = new DirectoryInfo(_attributeValue.DirectoryName);
+            _config = config;
+            _dirInfo = new DirectoryInfo(_config.LoggerConfig.DirectoryName);
+            CreateDirectory();
             DirectorySizeControl();
+            _filePath = GetFilePath();
         }
 
         public void WriteToFile(string value)
         {
-            _streamWriter = new StreamWriter(GetFilePath(), true);
-            CreateDirectory();
+            _streamWriter = new StreamWriter(_filePath, true);
             _streamWriter.WriteLine(value);
             _streamWriter.Close();
         }
@@ -44,29 +45,18 @@ namespace Modul2HW5.Services
         {
             var files = _dirInfo.GetFiles();
             Array.Sort(files, _comparer);
-            if (files.Length >= _attributeValue.DirectorySize)
+            if (files.Length >= _config.LoggerConfig.DirectorySize)
             {
-                for (var i = 0; i <= files.Length - _attributeValue.DirectorySize; i++)
+                for (var i = 0; i <= files.Length - _config.LoggerConfig.DirectorySize; i++)
                 {
                     files[i].Delete();
                 }
             }
         }
 
-        private void GetAttributes()
-        {
-            var type = GetType();
-            if (Attribute.IsDefined(type, typeof(FileServiceAtribute)))
-            {
-                _attributeValue = Attribute
-                    .GetCustomAttribute(type, typeof(FileServiceAtribute))
-                    as FileServiceAtribute;
-            }
-        }
-
         private string GetFilePath()
         {
-            return @$"{_attributeValue.DirectoryName}\{DateTime.UtcNow.ToString().Replace(':', '.')}.txt";
+            return @$"{_config.LoggerConfig.DirectoryName}{DateTime.UtcNow.ToString().Replace(':', '.')}{_config.LoggerConfig.FileExtension}";
         }
     }
 }

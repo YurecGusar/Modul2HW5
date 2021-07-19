@@ -1,3 +1,0 @@
-17.07.2021 17:29:33: INFO: Start method: InfoAction
-17.07.2021 17:29:33: WARNING: Skipped logic in method
-17.07.2021 17:29:33: ERROR: I broke a logic
