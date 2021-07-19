@@ -7,9 +7,10 @@ namespace Modul2HW5.Services
 {
     public class ConfigService : IConfigService
     {
+        private const string _jsonFileName = @"E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Configs\Config.json";
         public ConfigService()
         {
-            Serialization(GetConfig());
+            /*Serialization(GetConfig());*/
             var config = DeSerialization();
             LoggerConfig = config.LoggerConfig;
         }
@@ -34,12 +35,12 @@ namespace Modul2HW5.Services
         {
             var config = newConfig;
             var json = JsonConvert.SerializeObject(config);
-            File.WriteAllText("Config.json", json);
+            File.WriteAllText(_jsonFileName, json);
         }
 
         private Config DeSerialization()
         {
-            var readFile = File.ReadAllText("Config.json");
+            var readFile = File.ReadAllText(_jsonFileName);
             var config = JsonConvert.DeserializeObject<Config>(readFile);
             return config;
         }

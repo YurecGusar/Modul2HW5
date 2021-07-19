@@ -18,3 +18,4 @@ E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\obj\Debug\net5.0\ref\Modul2H
 E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\obj\Debug\net5.0\Modul2HW5.pdb
 E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\obj\Debug\net5.0\Modul2HW5.genruntimeconfig.cache
 E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\bin\Debug\net5.0\Configs\Config.json

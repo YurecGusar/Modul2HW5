@@ -20,15 +20,9 @@ namespace Modul2HW5.Services
             _comparer = comparer;
             _config = config;
 
-            _dirInfo = new DirectoryInfo(_config.LoggerConfig.DirectoryName);
             CreateDirectory();
             DirectorySizeControl();
             _filePath = GetFilePath();
-        }
-
-        public void StartFileStream()
-        {
-            _streamWriter = new StreamWriter(_filePath, true);
         }
 
         public void WriteToFile(string value)
@@ -40,6 +34,7 @@ namespace Modul2HW5.Services
 
         private void CreateDirectory()
         {
+            _dirInfo = new DirectoryInfo(_config.LoggerConfig.DirectoryName);
             if (!_dirInfo.Exists)
             {
                 _dirInfo.Create();
@@ -65,7 +60,7 @@ namespace Modul2HW5.Services
             var fileName = DateTime.UtcNow.ToString(_config.LoggerConfig.FileNameFormat);
             var fileExtension = _config.LoggerConfig.FileExtension;
 
-            return @$"{dirName}{fileName}{fileExtension}";
+            return $"{dirName}{fileName}{fileExtension}";
         }
     }
 }

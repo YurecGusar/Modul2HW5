@@ -10,17 +10,19 @@ namespace Modul2HW5
     {
         private readonly IActions _actions;
         private readonly ILoggerService _logger;
+        private readonly IFileService _fileService;
         public Starter(
             IActions actions,
-            ILoggerService logger)
+            ILoggerService logger,
+            IFileService fileService)
         {
             _actions = actions;
             _logger = logger;
+            _fileService = fileService;
         }
 
         public void Run()
         {
-            /*_fileService.StartFileStream();*/
             var quantityRunMethods = 100;
             for (var i = 0; i < quantityRunMethods; i++)
             {
