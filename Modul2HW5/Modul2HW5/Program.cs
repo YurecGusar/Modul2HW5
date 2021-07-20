@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections;
+using Microsoft.Extensions.DependencyInjection;
+using Modul2HW5.Extensions;
+using Modul2HW5.Services;
+using Modul2HW5.Services.Abstractions;
 
 namespace Modul2HW5
 {
@@ -6,8 +11,16 @@ namespace Modul2HW5
     {
         public static void Main(string[] args)
         {
-            var starter = new Starter();
-            starter.Run();
+            var serviceProvider = new ServiceCollection()
+                .AddTransient<Starter>()
+                .AddTransient<ILoggerService, LoggerService>()
+                .AddTransient<IActions, Actions>()
+                .AddTransient<IFileService, FileService>()
+                .AddTransient<IComparer, DateTimeComparer>()
+                .AddTransient<IConfigService, ConfigService>()
+                .BuildServiceProvider();
+            var start = serviceProvider.GetService<Starter>();
+            start.Run();
         }
     }
 }

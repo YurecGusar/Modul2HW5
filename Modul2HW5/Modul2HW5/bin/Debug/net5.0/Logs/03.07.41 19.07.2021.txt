@@ -1,0 +1,139 @@
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 INFO: Start method: InfoAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:41 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:42 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:42 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:42 INFO: Start method: InfoAction
+03:07:42 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
+03:07:42 INFO: Start method: InfoAction
+03:07:42 WARNING: Action got this custom Exception: Skipped logic in method: BusinesExceptionAction
+03:07:42 INFO: Start method: InfoAction
+03:07:42 INFO: Start method: InfoAction
+03:07:42 ERROR: Action failed by reason: System.Exception: I broke a logic: ExceptionAction
+   at Modul2HW5.Services.Actions.ExceptionAction() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Services\Actions.cs:line 32
+   at Modul2HW5.Starter.GetRandomMethod() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 55
+   at Modul2HW5.Starter.Run() in E:\A-Level\YurecGusar\Modul2HW5\Modul2HW5\Modul2HW5\Starter.cs:line 31
